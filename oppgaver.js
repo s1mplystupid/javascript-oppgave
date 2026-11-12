@@ -41,7 +41,7 @@ console.log("Oppgave 2:", hp);
 // Forventet: TypeError: Assignment to constant variable.
 
 const Pi = 3.14159;
-console.log("Oppgave 3:", Pi, "feilmeldinga skjer derson du prøver å modifisere en const variabel, noe som ikke er mulig med const.");
+console.log("Oppgave 3:", Pi);
 
 
 // Oppgave 4 (middels)
@@ -49,6 +49,10 @@ console.log("Oppgave 3:", Pi, "feilmeldinga skjer derson du prøver å modifiser
 // Skriv ut prisen med moms.
 // Forventet: Pris med moms: 250 kr
 
+const MOMS = 0.25;
+let pris = 200;
+prisMedMoms = pris + pris * MOMS;
+console.log("Oppgave 4: Pris med moms:", prisMedMoms);
 
 // Oppgave 5 (avansert)
 // Lag disse som const eller let. Begrunn valgene i oppgavearket:

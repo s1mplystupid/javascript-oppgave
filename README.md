@@ -59,7 +59,7 @@ Mange av dere kjenner Python fra før. Grunntankene er de samme: variabler, `if`
 
 **Svar:** Du skal lage en nettside der brukeren kan søke etter turer. Hvilket språk ville du brukt, og hvorfor?
 
-> _Skriv svaret ditt her._
+> _JavaScript. språket er det som gjør nettsiden din dynamisk, inkludert søkefelt som kan automatisk gi forslag basert på det du har skrevet._
 
 
 --- 
@@ -192,7 +192,7 @@ Ikke skriv `let` andre gang. Skriv `hp = hp - 30;`
 
 **Svar oppgave 3:** Hva betyr feilmeldingen?
 
-> _Skriv svaret ditt her._
+> _feilmeldingen skjer derson du prøver å modifisere en const variabel, noe som ikke er mulig med const._
 
 **Svar oppgave 5:**
 
