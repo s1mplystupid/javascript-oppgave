@@ -20,17 +20,28 @@
 // Skriv ut begge på samme linje.
 // Forventet: Ola Nordmann  (men ditt navn)
 
+let firstName = "Fabian";
+let lastName = "Forfang";
+console.log("Oppgave 1:", firstName + " " + lastName);
+
 
 // Oppgave 2 (grunnleggende)
 // Lag let hp = 100. Spilleren blir truffet av en isbjørn og mister 30 hp.
 // Endre hp (uten let foran) og skriv den ut.
 // Forventet: 70
 
+let hp = 100;
+hp = hp - 30;
+console.log("Oppgave 2:", hp);
+
 
 // Oppgave 3 (grunnleggende)
 // Lag const PI = 3.14159. Prøv deretter å skrive PI = 3; og kjør fila.
 // Skriv i oppgavearket hva feilmeldingen betyr, og fjern linja igjen.
 // Forventet: TypeError: Assignment to constant variable.
+
+const Pi = 3.14159;
+console.log("Oppgave 3:", Pi, "feilmeldinga skjer derson du prøver å modifisere en const variabel, noe som ikke er mulig med const.");
 
 
 // Oppgave 4 (middels)
