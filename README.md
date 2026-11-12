@@ -198,10 +198,10 @@ Ikke skriv `let` andre gang. Skriv `hp = hp - 30;`
 
 | Verdi | `const` eller `let` | Hvorfor |
 |---|---|---|
-| Maks antall spillere på serveren (16) |  |  |
-| Antall liv igjen (3) |  |  |
-| Høyden på Fløya (671) |  |  |
-| Temperaturen i Tromsø nå (-4) |  |  |
+| Maks antall spillere på serveren (16) | const | er en bestemt grense som en annen variabel ikke kan gå forbi, men kan være mindre enn grensa. |
+| Antall liv igjen (3) | let | ett tall som forandres basert på hvor mange ganger man har dødd. |
+| Høyden på Fløya (671) | const | kan argumenteres at havnivået gjør at det er en let og ikke en const, men i dette tilfellet er fjellet en fast høyde. |
+| Temperaturen i Tromsø nå (-4) | let | det er snakk om nåtid, altså en dynamisk tid hvor temperaturen kan minke eller øke. |
 
 #### Tekst og tall
 

@@ -20,9 +20,9 @@
 // Skriv ut begge på samme linje.
 // Forventet: Ola Nordmann  (men ditt navn)
 
-let firstName = "Fabian";
-let lastName = "Forfang";
-console.log("Oppgave 1:", firstName + " " + lastName);
+let first_Name = "Fabian";
+let last_Name = "Forfang";
+console.log("Oppgave 1:", first_Name + " " + last_Name);
 
 
 // Oppgave 2 (grunnleggende)
@@ -51,14 +51,19 @@ console.log("Oppgave 3:", Pi);
 
 const MOMS = 0.25;
 let pris = 200;
-prisMedMoms = pris + pris * MOMS;
-console.log("Oppgave 4: Pris med moms:", prisMedMoms);
+pris_Med_Moms = pris + pris * MOMS;
+console.log("Oppgave 4: Pris med moms:", pris_Med_Moms);
 
 // Oppgave 5 (avansert)
 // Lag disse som const eller let. Begrunn valgene i oppgavearket:
 // maks antall spillere på serveren (16), antall liv igjen (3),
 // høyden på Fløya (671), temperaturen i Tromsø nå (-4).
 // Forventet: ingenting i konsollen
+
+const maks_Spiller = 16;
+let antall_Liv_Igjen = 3;
+const høyden_På_Fløya = 671;
+let temperatur_I_Tromsø = -4;
 
 
 // ---------------- TEKST OG TALL ----------------
