@@ -244,7 +244,7 @@ Pass på: brukt på tekst skjøter `+` tekst sammen i stedet for å regne.
 
 **Svar oppgave 8:** Hvorfor blir `"5" + 5` annerledes enn `5 + 5`?
 
-> _Skriv svaret ditt her._
+> _du kan ikke få 10 med å skrive `"5" + 5` fordi du plusser en string (tekst) med en integer (tall), der integer blir lagt til som en string. i motsetning til alternativ 2 hvor begge er integer._
 
 #### Valg med if
 

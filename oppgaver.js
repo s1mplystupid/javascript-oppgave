@@ -65,7 +65,7 @@ const maks_Spiller = 16;
 let antall_Liv_Igjen = 3;
 const høyden_På_Fløya = 671;
 let temperatur_I_Tromsø = -4;
-console.log("Oppgave 5: se 'README' filen for svar.");
+console.log("Oppgave 5: se 'README' filen for svar");
 
 
 // ---------------- TEKST OG TALL ----------------
@@ -81,9 +81,12 @@ console.log("Oppgave 5: se 'README' filen for svar.");
 
 console.log(`Oppgave 6: ${typeof hp} ${typeof first_Name}`);
 
+
 // Oppgave 7 (grunnleggende)
 // Bruk backticks og ${} til å skrive ut en setning med firstname og hp.
 // Forventet: Ola har 70 hp
+
+console.log(`Oppgave 7: ${first_Name} har ${hp} hp`);
 
 
 // Oppgave 8 (middels)
@@ -92,6 +95,8 @@ console.log(`Oppgave 6: ${typeof hp} ${typeof first_Name}`);
 // Forventet: 10
 //            55
 //            10
+
+console.log("Oppgave 8:", (5 + 5), ("5" + 5), (Number("5") + 5), "- forklaring står i 'README' filen");
 
 
 // Oppgave 9 (middels)
