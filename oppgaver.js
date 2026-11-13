@@ -154,6 +154,7 @@ if (klokka < 10) {
     console.log("Oppgave 12: God kveld");
 }
 
+
 // Oppgave 13 (middels)
 // Det er gode sjanser for nordlys når skydekket er under 30 OG klokka er 18 eller mer.
 // const skydekke = 20 og const time = 22. Bruk &&.
@@ -197,11 +198,25 @@ if (alder < 12) {
 //            4
 //            5
 
+console.log("Oppgave 15:");
+for (let i = 1; i <= 5; i++) {
+    console.log(i);
+}
+
 
 // Oppgave 16 (grunnleggende)
 // En rakett skal skytes opp fra Andøya. Tell ned fra 10 til 1 med en for-løkke,
 // og skriv ut "Liftoff!" etter løkka.
 // Forventet: 10, 9, 8 ... 1 (én per linje), så Liftoff!
+
+console.log("Oppgave 16:");
+for (let i = 10; i >= 1; i--) {
+    console.log(i);
+
+    if (i === 1) {                          // visste hva jeg måtte skrive for å printe "Liftoff!", men bruke KI for å finne ut at jeg måtte legge til if statement inne i {} til for løkken.
+        console.log("Liftoff!");
+    }
+}
 
 
 // Oppgave 17 (middels)
