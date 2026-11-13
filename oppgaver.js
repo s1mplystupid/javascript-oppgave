@@ -121,11 +121,22 @@ console.log(`Oppgave 9: ${hele_Lag} lag | ${elever % 4} til overs`);
 // const temp = -8. Skriv ut "Kuldegrader" hvis temp er under 0.
 // Forventet: Kuldegrader
 
+const temp = -8;
+if (temp < 0) {
+    console.log("Oppgave 10: Kuldegrader");
+}
+
 
 // Oppgave 11 (grunnleggende)
 // Bruk hp fra oppgave 2. Hvis hp er 0 eller mindre: "Game over".
 // Ellers: "Spillet fortsetter".
 // Forventet: Spillet fortsetter
+
+if (hp <= 0) {
+    console.log("Oppgave 11: Game over");
+} else {
+    console.log("Oppgave 11: Spillet fortsetter");
+}
 
 
 // Oppgave 12 (middels)
@@ -134,6 +145,14 @@ console.log(`Oppgave 9: ${hele_Lag} lag | ${elever % 4} til overs`);
 // Forventet: God kveld
 // Test også: endre klokka til 8 og kjør på nytt. Da skal det stå God morgen.
 
+const klokka = 21;
+if (klokka < 10) {
+    console.log("Opphave 12: God morgen");
+} else if (klokka < 18) {
+    console.log("Oppgave 12: God dag");
+} else {
+    console.log("Oppgave 12: God kveld");
+}
 
 // Oppgave 13 (middels)
 // Det er gode sjanser for nordlys når skydekket er under 30 OG klokka er 18 eller mer.
@@ -141,11 +160,28 @@ console.log(`Oppgave 9: ${hele_Lag} lag | ${elever % 4} til overs`);
 // Forventet: Gode sjanser for nordlys
 // Test også: skydekke = 80 skal gi: Dårlige sjanser i kveld
 
+const skydekke = 20;
+const time = 22;
+if (skydekke < 30 && time >= 18) {
+    console.log("Oppgave 13: Gode sjanser for nordlys");
+} else {
+    console.log("Oppgave 13: Dårlige sjanser i kveld");
+}
+
 
 // Oppgave 14 (avansert)
 // Billett til Fjellheisen: barn under 12 betaler 50 kr, 67 år og eldre betaler 60 kr,
 // alle andre betaler 100 kr. Lag let alder og skriv ut prisen.
 // Forventet: alder 8 -> 50 kr,  alder 30 -> 100 kr,  alder 70 -> 60 kr
+
+let alder = 8;
+if (alder < 12) {
+    console.log(`Oppgave 14: alder ${alder} -> 50 kr`);
+} else if (alder >= 67) {
+    console.log(`Oppgave 14: alder ${alder} -> 60 kr`);
+} else {
+    console.log(`Oppgave 14: alder ${alder} -> 100 kr`);
+}
 
 
 // ---------------- LØKKER ----------------
