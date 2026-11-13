@@ -54,6 +54,7 @@ let pris = 200;
 pris_Med_Moms = pris + pris * MOMS;
 console.log("Oppgave 4: Pris med moms:", pris_Med_Moms);
 
+
 // Oppgave 5 (avansert)
 // Lag disse som const eller let. Begrunn valgene i oppgavearket:
 // maks antall spillere på serveren (16), antall liv igjen (3),
@@ -64,6 +65,7 @@ const maks_Spiller = 16;
 let antall_Liv_Igjen = 3;
 const høyden_På_Fløya = 671;
 let temperatur_I_Tromsø = -4;
+console.log("Oppgave 5: se 'README' filen for svar.");
 
 
 // ---------------- TEKST OG TALL ----------------
@@ -77,6 +79,7 @@ let temperatur_I_Tromsø = -4;
 // Forventet: number
 //            string
 
+console.log(`Oppgave 6: ${typeof hp} ${typeof first_Name}`);
 
 // Oppgave 7 (grunnleggende)
 // Bruk backticks og ${} til å skrive ut en setning med firstname og hp.
