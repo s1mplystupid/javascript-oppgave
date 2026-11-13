@@ -106,6 +106,10 @@ console.log("Oppgave 8:", (5 + 5), ("5" + 5), (Number("5") + 5), "- forklaring s
 // Forventet: 4 lag
 //            1 til overs
 
+const elever = 17;
+const hele_Lag = Math.floor(elever / 4);
+console.log(`Oppgave 9: ${hele_Lag} lag | ${elever % 4} til overs`);
+
 
 // ---------------- VALG MED IF ----------------
 // if kjører koden bare når betingelsen er sann. else kjører ellers.
